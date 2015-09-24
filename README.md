@@ -1,5 +1,5 @@
 # Numeric Sequence Calculator
-This software is a Web Based Application created in VS 2013 using Framework 4.5, MVC, C#.Net and Bootstrap. 
+This software is a Web Based Application created in Visual Studio 2013 using Framework 4.5, MVC, C#.Net and Bootstrap. 
 For validation checks MVC Data Annotations are used and necessary exception handling has also been done. 
 Unit Test is created along with Project.
 
