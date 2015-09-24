@@ -1,0 +1,5 @@
+E:\Projects\SequenceGenerator\Utility\bin\Debug\Utility.dll
+E:\Projects\SequenceGenerator\Utility\bin\Debug\Utility.pdb
+E:\Projects\SequenceGenerator\Utility\obj\Debug\Utility.dll
+E:\Projects\SequenceGenerator\Utility\obj\Debug\Utility.pdb
+E:\Projects\SequenceGenerator\Utility\obj\Debug\DAL.csprojResolveAssemblyReference.cache

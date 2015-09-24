@@ -1,0 +1,104 @@
+﻿@model IEnumerable<SequenceGenerator.ViewModels.ListsViewModel>
+
+@{
+    ViewBag.Title = "processSequence";
+}
+
+@{
+    string strNumbers = "";
+    string strOdd = "";
+    string strEven = "";
+    string strReplaced = "";
+    string strFib = "";
+
+}
+
+
+@foreach (var item in Model)
+{
+    for (int i = 0; i < item.numbers.Count; i++)
+    {
+        strNumbers += item.numbers[i].ToString() + ", ";
+
+    }
+    for (int i = 0; i < item.oddNumber.Count; i++)
+    {
+        strOdd += item.oddNumber[i].ToString() + ", ";
+
+    }
+    for (int i = 0; i < item.evenNumber.Count; i++)
+    {
+        strEven += item.evenNumber[i].ToString() + ", ";
+
+    }
+    for (int i = 0; i < item.replacedNumber.Count; i++)
+    {
+        strReplaced += item.replacedNumber[i].ToString() + ", ";
+
+    }
+    for (int i = 0; i < item.Fibonacci.Count; i++)
+    {
+        strFib += item.Fibonacci[i].ToString() + ", ";
+
+    }
+    strNumbers = strNumbers.Remove(strNumbers.Length - 2);
+    strOdd = strOdd.Remove(strOdd.Length - 2);
+    strEven = strEven.Remove(strEven.Length - 2);
+    strReplaced = strReplaced.Remove(strReplaced.Length - 2);
+    strFib = strFib.Remove(strFib.Length - 2);
+
+}
+<div class="container" style="padding-top:20px">
+
+    <div class="h4"> Generated Sequences are as Follows:</div>
+    <div class="row">
+
+        <div class="col-md-6">
+            <b>Note:</b> Last item in each list is the Number Entered in Text Box except Replaced Sequence.
+        </div>
+        <div class="col-md-2">
+            @Html.ActionLink("Back", "GenerateSequence")
+        </div>
+    </div>
+
+    <div class="table-responsive col-md-10">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Sequence</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Numbers</td>
+                    <td>@strNumbers</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Odd Sequence</td>
+                    <td>@strOdd</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Even Sequence</td>
+                    <td>@strEven</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Replaced Sequence</td>
+                <td>@strReplaced</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Fibonacci Sequence</td>
+                <td>@strFib</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+</div>

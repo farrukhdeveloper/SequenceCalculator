@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceGenerator", "SequenceGenerator\SequenceGenerator.csproj", "{A1A033D3-6E57-41D8-81AE-7F77BADB335D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "Utility\DAL.csproj", "{5A689773-FA44-49A3-A636-1512783208C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSequenceCalculator", "UnitTestSequenceCalculator\UnitTestSequenceCalculator.csproj", "{B329960A-643C-44E4-B481-DEF356C4FE8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1A033D3-6E57-41D8-81AE-7F77BADB335D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A033D3-6E57-41D8-81AE-7F77BADB335D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A033D3-6E57-41D8-81AE-7F77BADB335D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A033D3-6E57-41D8-81AE-7F77BADB335D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A689773-FA44-49A3-A636-1512783208C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A689773-FA44-49A3-A636-1512783208C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A689773-FA44-49A3-A636-1512783208C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A689773-FA44-49A3-A636-1512783208C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B329960A-643C-44E4-B481-DEF356C4FE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B329960A-643C-44E4-B481-DEF356C4FE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B329960A-643C-44E4-B481-DEF356C4FE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B329960A-643C-44E4-B481-DEF356C4FE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
