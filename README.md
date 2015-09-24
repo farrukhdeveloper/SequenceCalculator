@@ -9,11 +9,12 @@ I have also tested this application by using following test cases:
 2- 0 Value 3- Random Positive values upto 100 4- Alphanumeric numbers. 5- Alphabets UI has been tested manullay on Firefox and Chrome.
 
 Instruction
+
 Step 1: Technical Requirements: Install Visual Studio 2013 Browser: Chrome or Firefox, OS: Any
 
 Step 2: How to Download Source Code from Git Hub Repository?
 
-Ans: First, Download and install Git Application from https://git-scm.com/downloads. 
+First, Download and install Git Application from https://git-scm.com/downloads. 
 
 After installing the Git Application on your computer, Create new folder on any drive such as c:/GitRepository.
 
