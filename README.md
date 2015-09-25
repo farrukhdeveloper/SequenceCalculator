@@ -8,11 +8,14 @@ I have also tested this application by using following test cases:
 1- Negative Values 
 2- 0 Value 3- Random Positive values upto 100 4- Alphanumeric numbers. 5- Alphabets UI has been tested manullay on Firefox and Chrome.
 
-Instruction
+# Instruction
 
-Step 1: Technical Requirements: Install Visual Studio 2013 Browser: Chrome or Firefox, OS: Any
+# Step 1: Technical Requirements: 
 
-Step 2: How to Download Source Code from Git Hub Repository?
+Install Visual Studio 2013 Browser: Chrome or Firefox, OS: Any
+
+
+# Step 2: How to Download Source Code from Git Hub Repository?
 
 First, Download and install Git Application from https://git-scm.com/downloads. 
 
@@ -27,7 +30,7 @@ git clone https://github.com/farrukhdeveloper/SequenceCalculator.git
 Now a fresh copy of source code will be downloaded to your computer.
 
 
-Step 3: For Source Code Review and Debugging:
+#Step 3: For Source Code Review and Debugging:
 
 Open SequenceGenerator Folder and find SequenceGenerator.sln file. Double click on the SequenceGenerator Solution File. This solution file will be opened in VS 2013. In VS 2013, Click on Play Button (Debug) at the Top Menu bar OR you can run this application by using short cut keys i.e Ctrl + f5.
 
